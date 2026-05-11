@@ -1,0 +1,26 @@
+public class maths {
+
+    public static void operations() {
+
+        Integer num1 = 20;
+        Integer num2 = 10;
+
+        Integer add = num1 + num2;
+        Integer sub = num1 - num2;
+        Integer mul = num1 * num2;
+        Integer div = num1 / num2;
+
+        System.debug('Addition: ' + add);
+        System.debug('Subtraction: ' + sub);
+        System.debug('Multiplication: ' + mul);
+        System.debug('Division: ' + div);
+        
+        Integer num= 5;
+		for (Integer i = 1; i <= 10; i++) {
+		System.debug(num + 'x' + i + '=' + (num * i));
+        }
+
+		
+        
+    }
+}

@@ -1,0 +1,16 @@
+open salesforce
+login
+go to settings
+select debug console
+-----opens terminial----
+select file->new->apexclass  (
+enter file name->"maths" or 'WelcomeMessage' depending upon qs->enter
+enter code
+ctrl + s
+go to dubg tab on top->open anonymous code-> 
+write: filename.functionname(); example(maths.operations(); or WelcomeMessage.displayMessage())
+
+check box of open log-> click on execeute
+
+go down clik on debug only check box
+done
